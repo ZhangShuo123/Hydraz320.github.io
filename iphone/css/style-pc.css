@@ -3,50 +3,50 @@ body{
 }
 #iphone{
 	border: white medium solid;
-	width: 360px;
+	width: 1200px;
 	height: auto;
 
-	font-size: 16px;
+	font-size: 55px;
 }
 #signal{
 	color: white;
-	padding: 2px 0 0 5px;
+	padding: 7px 0 0 16px;
 }
 #input{
 	text-align: center;
-	margin: 40px auto;
+	margin: 120px auto;
 }
 #input span{
-	width: 30px;
-	height: 30px;
+	width: 120px;
+	height: 100px;
 	border: white medium solid;
-	margin: 20px 20px;
-	border-radius: 15px;
+	margin: 30px 30px;
+	border-radius: 45px;
 }
 #panel{
 	overflow: hidden;
-	width: 320px;
+	width: 1066px;
 	margin: auto;
 }
 .number{
 	position: relative;
 	float: left;
 
-	font-size: 30px;
+	font-size: 100px;
 	text-align: center;
-	width: 80px;
-	height: 80px;
-	line-height: 80px;
-	margin: 16px 10px;
+	width: 250px;
+	height: 250px;
+	line-height: 250px;
+	margin: 50px 40px;
 	color: white;
 	border: white medium solid;
-	border-radius: 40px;
+	border-radius: 125px;
 }
 #footer{
-	width: 240px;
-	margin: 30px auto;
+	width: 800px;
+	margin: 100px auto;
 	color: white;
-	font-size: 20px;
+	font-size: 70px;
 	overflow: hidden;
 }
 #call{
