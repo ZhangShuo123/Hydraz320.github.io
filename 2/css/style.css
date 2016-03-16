@@ -49,9 +49,8 @@ nav li{
 }
 
 nav a{
-
 	text-decoration: none;
-
+	width: auto;
 	color: white;
 }
 /* 设置文章article和侧栏aside */
