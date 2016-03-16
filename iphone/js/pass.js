@@ -71,11 +71,23 @@ function update(){
 	if(point>=4)
 		result(check());
 }
+//编写删除键的监听器函数
+function del(){
+	if(point>0)
+	{
+		point--;
+		inputArray.pop();
+		white(point);
+	}
+}
+
 //绑定监听器
 function bind(){
 	var numbers = $("number");
 	for(var i=0;i<numbers.length;i++)
 		numbers[i].onclick=update;
+	//绑定删除键
+	document.getElementById("delete").onclick=del;
 }
 
 bind();

@@ -1,0 +1,57 @@
+body{
+	background-color: #444444;
+}
+#iphone{
+	border: white medium solid;
+	width: auto;
+	height: auto;
+
+	font-size: 40px;
+}
+#signal{
+	color: white;
+}
+#input{
+	text-align: center;
+	margin: 80px auto;
+}
+#input span{
+	width: 50px;
+	height: 50px;
+	border: white medium solid;
+	margin: 80px 30px;
+	border-radius: 40px;
+}
+#panel{
+	overflow: hidden;
+}
+.number{
+	position: relative;
+	float: left;
+
+	font-size: 80px;
+	text-align: center;
+	width: 250px;
+	height: 250px;
+	line-height: 220px;
+	margin: 30px;
+
+	color: white;
+	border: white medium solid;
+	border-radius: 150px;
+}
+#footer{
+	width: 600px;
+	margin: 100px auto;
+	color: white;
+	font-size: 60px;
+	overflow: hidden;
+}
+#call{
+	position: relative;
+	float: left;
+}
+#delete{
+	position: relative;
+	float: right;
+}

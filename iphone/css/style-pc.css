@@ -2,49 +2,51 @@ body{
 	background-color: #444444;
 }
 #iphone{
-	border: red medium dashed;
-	width: auto;
+	border: white medium solid;
+	width: 360px;
 	height: auto;
 
-	font-size: 40px;
+	font-size: 16px;
 }
 #signal{
 	color: white;
+	padding: 2px 0 0 5px;
 }
 #input{
 	text-align: center;
-	margin: 80px auto;
+	margin: 40px auto;
 }
 #input span{
-	width: 50px;
-	height: 50px;
+	width: 30px;
+	height: 30px;
 	border: white medium solid;
-	margin: 80px 30px;
-	border-radius: 40px;
+	margin: 20px 20px;
+	border-radius: 15px;
 }
 #panel{
 	overflow: hidden;
+	width: 320px;
+	margin: auto;
 }
 .number{
 	position: relative;
 	float: left;
 
-	font-size: 80px;
+	font-size: 30px;
 	text-align: center;
-	width: 250px;
-	height: 250px;
-	line-height: 220px;
-	margin: 30px;
-
+	width: 80px;
+	height: 80px;
+	line-height: 80px;
+	margin: 16px 10px;
 	color: white;
 	border: white medium solid;
-	border-radius: 150px;
+	border-radius: 40px;
 }
 #footer{
-	width: 600px;
-	margin: 100px auto;
+	width: 240px;
+	margin: 30px auto;
 	color: white;
-	font-size: 60px;
+	font-size: 20px;
 	overflow: hidden;
 }
 #call{
