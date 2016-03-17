@@ -23,7 +23,7 @@ nav img{
 	position: relative;
 	float: left;
 
-	padding: 10px 0 0 50px;
+	padding: 10px 0 0 320px;
 
 	width: 180px;
 	height: 60px;
@@ -50,7 +50,7 @@ nav li{
 
 nav a{
 	text-decoration: none;
-	width: auto;
+	width: 40px;
 	color: white;
 }
 /* 设置文章article和侧栏aside */
@@ -69,9 +69,9 @@ aside {
 }
 
 article, aside {
-	border: #CDCDCD thin solid;
-	border-bottom: #848484 2px solid;
-	border-right: #848484 2px solid;
+	width: 1130px;
+	margin: 20px auto;
+	box-shadow: 3px 3px 5px #9f9f9f;
 }
 
 aside h2 {
