@@ -1,0 +1,56 @@
+body {
+	margin: 20px;
+	min-width: 600px;
+}
+
+.team {	
+	border: #999 thin solid;
+
+	background-color: #eee;
+}
+
+.left-team {
+	float: left;
+
+	width: 200px;
+	margin: 25px;
+}
+.left-team img {
+	width: 80px;
+	height: 80px;
+	margin: 15px 0 15px 15px;
+}
+.left-team div {
+	display: inline;
+	float: right;
+	margin: 10px 20px 0 0;
+	font-weight: bold;
+}
+
+.right-single {
+	float: right;
+	margin: 25px;
+	width: 120px;
+}
+
+.right-single img {
+	display: block;
+	width: 80px;
+	height: 80px;
+	margin: 20px;
+}
+
+.middle-intro {
+	margin: 25px 170px 0 250px;
+	padding: 20px;
+}
+
+.clear {
+	clear: both;
+}
+
+.left-team, .right-single, .middle-intro {
+	border: #999 thin solid;
+
+	background-color: white;
+} 
